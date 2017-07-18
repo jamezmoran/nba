@@ -65,4 +65,40 @@ finally:
 	dbh.close()
 ```
 
+To use the Uploader module, pass into the `upload_standings` the output from the `get\_standings()` method on `Scraper`, or alternatively a dict of the format:
+```
+{
+	'<year>' : {
+		'<conference name>' : {
+			'<division name>' : {
+				'<team name>' : {
+					'wins' : <wins no.>,
+					'losses' : <losses no.>,
+					'pct' : <PCT stat>,
+					'gb' : <GB stat>,
+					'conf_wins' : <conf wins>,
+					'conf_losses' : <conf losses>,
+					'div_wins' : <division wins>,
+					'div_losses' : <division losses>,
+					'home_wins' : <home wins>,
+					'home_losses' : <home losses>,
+					'road_wins' : <road wins>,
+					'road_losses' : <road losses>,
+					'l10_wins' : <last ten wins>,
+					'l10_losses' : <last ten losses>,
+					'streak' : <streak>
+				}
+			}
+		}
+	}
+}
+```
+
+Testing
+=======
+I have provided a basic test driver to test the `Scraper` module. It passes two example HTML files into the `Scraper` modules and tests the output it generates against the content of the two JSON files `expected_output_1.json` and `expected_output_2.json`. To run the test driver, run the following command:
+```
+$ python3 -m unittest test.py
+```
+
 

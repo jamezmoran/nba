@@ -32,9 +32,17 @@ class Uploader:
 										"SELECT Team.id, %s, %s, %s, %s, %s, %s, %s, %s, " \
 										"%s, %s, %s, %s, %s, %s, %s, %s " \
 										"FROM Team WHERE Team.name = %s " \
-										"ON DUPLICATE KEY UPDATE Standings.id=Standings.id"
+										"ON DUPLICATE KEY UPDATE " \
+										"`win`=%s, `loss`=%s, `pct`=%s, `gb`=%s," \
+										"`conf_win`=%s, `conf_loss`=%s, `div_win`=%s, `div_loss`=%s, `home_win`=%s," \
+										"`home_loss`=%s, `road_win`=%s, `road_loss`=%s, `l10_win`=%s, `l10_loss`=%s," \
+										"`streak`=%s "
 							cursor.execute(sql, [year, stats['wins'], stats['losses'], stats['pct'], stats['gb'],
 								stats['conf_wins'], stats['conf_losses'], stats['div_wins'], stats['div_losses'],
 								stats['home_wins'], stats['home_losses'], stats['road_wins'], stats['road_losses'],
-								stats['l10_wins'], stats['l10_losses'], stats['streak'], team_name])
+								stats['l10_wins'], stats['l10_losses'], stats['streak'], team_name,
+								stats['wins'], stats['losses'], stats['pct'], stats['gb'],
+								stats['conf_wins'], stats['conf_losses'], stats['div_wins'], stats['div_losses'],
+								stats['home_wins'], stats['home_losses'], stats['road_wins'], stats['road_losses'],
+								stats['l10_wins'], stats['l10_losses'], stats['streak']])
 		self.dbh.commit()
