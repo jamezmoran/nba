@@ -11,6 +11,10 @@ $ virtualenv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
+To set up the required MySQL database, the schema located at `schema.sql` needs to be run on a suitable database that is already running. This can be done from the command line using the MySQL command line client:
+```
+$ mysql -u <username> -h <hostname> -p <database_name> < schema.sql
+```
 
 Default usage
 =============
@@ -65,7 +69,7 @@ finally:
 	dbh.close()
 ```
 
-To use the Uploader module, pass into the `upload_standings` the output from the `get\_standings()` method on `Scraper`, or alternatively a dict of the format:
+To use the Uploader module, pass into the `upload_standings` the output from the `get_standings()` method on `Scraper`, or alternatively a dict of the format:
 ```
 {
 	'<year>' : {
