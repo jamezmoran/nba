@@ -54,7 +54,7 @@ $ source venv/bin/activate
 $ python3 scrape_nba.py 2012 2013 2014
 ```
 
-This will pull data from each of the years 2012, 2013, and 2014, and then push the scraped data into the MySQL database given by the` NBA_DB` environement variables.
+This will pull data from each of the years 2012, 2013, and 2014, and then push the scraped data into the MySQL database given by the` NBA_DB` environment variables.
 
 Library usage
 =============
