@@ -9,9 +9,6 @@ class Scraper:
 			self.standings[year] = {}
 		tree = html.fromstring(html_string)
 		rows = tree.xpath('//table[@class="genStatTable mainStandings"]/tr')
-		teams = []
-		divisions = []
-		conferences = []
 
 		current_conference = None
 		current_division = None
