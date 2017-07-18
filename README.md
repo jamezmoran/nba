@@ -115,10 +115,14 @@ Afterwards, pass into the `upload_standings` the output from the `get_standings(
 					'l10_wins' : <last ten wins>,
 					'l10_losses' : <last ten losses>,
 					'streak' : <streak>
-				}
-			}
-		}
-	}
+				},
+				...
+			},
+			...
+		},
+		...
+	},
+	...
 }
 ```
 
