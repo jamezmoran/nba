@@ -5,10 +5,15 @@ This project scrapes a given list of URLs from the NBA website and pushes the st
 Files included
 ==============
 `scrape_nba.py` - Default script which, when provided with a list of years on the command line, will scrape the NBA standings websites for those years and load the data into a MySQL database.
+
 `Scraper.py` - Module containing the web scraper. Takes in raw HTML through the `scrape_nba_html(html)` method and produces a python dict containing the standings data using the `get_standings()` method.
+
 `NBAUploader.py` - Module containing the class which uploads standings data produced by `Scraper` to a database. Takes a database handle via the constructor and uploads with the `upload_standings(standings_dict)` method.
+
 `test.py` - Basic test driver for the web scraper.
+
 `schema.sql` - SQL schema for the MySQL database.
+
 `data.sql` - SQL dump of the loaded data for 2012-2013, 2013-2014, and 2014-2015 NBA standings.
 
 Setup Instructions
