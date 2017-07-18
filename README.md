@@ -50,6 +50,7 @@ $ export NBA_DB_NAME=<Name of the MySQL DB>
 To scrape from individual NBA pages using the default script, you must activate the virtual environment created above and provide a list of years on the command line to the `scrape_nba.py`, for example:
 
 ```
+$ source venv/bin/activate
 $ python3 scrape_nba.py 2012 2013 2014
 ```
 
