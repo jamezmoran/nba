@@ -6,7 +6,7 @@ Files included
 ==============
 `scrape_nba.py` - Default script which, when provided with a list of years on the command line, will scrape the NBA standings websites for those years and load the data into a MySQL database.
 
-`Scraper.py` - Module containing the web scraper. Takes in raw HTML through the `scrape_nba_html(html)` method and produces a python dict containing the standings data using the `get_standings()` method.
+`Scraper.py` - Module containing the web scraper. Takes in raw HTML through the `scrape_nba_html(year,html)` method and produces a python dict containing the standings data using the `get_standings()` method.
 
 `NBAUploader.py` - Module containing the class which uploads standings data produced by `Scraper` to a database. Takes a database handle via the constructor and uploads with the `upload_standings(standings_dict)` method.
 
