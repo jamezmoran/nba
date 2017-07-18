@@ -69,7 +69,14 @@ finally:
 	dbh.close()
 ```
 
-To use the Uploader module, pass into the `upload_standings` the output from the `get_standings()` method on `Scraper`, or alternatively a dict of the format:
+To use the Uploader module, a database connection that adheres to the PEP DB specification must be passed in to the constructor of the object:
+```py
+dbh = MySQLdb.connect(username, host, password, dbname)
+try:
+	uploader = Uploader(dbh)
+	...
+```
+Afterwards, pass into the `upload_standings` the output from the `get_standings()` method on `Scraper`, or alternatively a dict of the format:
 ```
 {
 	'<year>' : {
