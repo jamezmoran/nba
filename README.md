@@ -20,7 +20,7 @@ Files included
 
 Setup Instructions
 ============
-This project requires that python3, pip, and virtualenv are installed on the host system. Below are instructions on how to install the dependencies for:
+This project requires that python3, pip, and virtualenv are installed on the host system. To install the dependencies for this project, run the following commands on a unix command line:
 ```
 $ virtualenv venv
 $ source venv/bin/activate
