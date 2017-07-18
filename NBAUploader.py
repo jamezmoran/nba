@@ -2,7 +2,7 @@ class Uploader:
 	def __init__(self,db):
 		self.dbh = db
 	
-	def upload_standings(self,standings, year):
+	def upload_standings(self,standings):
 		with self.dbh.cursor() as cursor:
 			for year, conferences in standings.items():
 				for conf_name, conference in conferences.items():

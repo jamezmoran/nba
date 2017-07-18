@@ -1,0 +1,80 @@
+{
+  "2013": {
+    "Eastern Conference": {
+      "Atlantic": {
+        "Toronto": {
+          "wins": "48",
+          "losses": "34",
+          "pct": "0.585",
+          "gb": "0.0",
+          "conf_wins": "32",
+          "conf_losses": "20",
+          "div_wins": "11",
+          "div_losses": "5",
+          "home_wins": "26",
+          "home_losses": "15",
+          "road_wins": "22",
+          "road_losses": "19",
+          "l10_wins": "7",
+          "l10_losses": "3",
+          "streak": "-1"
+        },
+        "Brooklyn": {
+          "wins": "44",
+          "losses": "38",
+          "pct": "0.537",
+          "gb": "4.0",
+          "conf_wins": "26",
+          "conf_losses": "26",
+          "div_wins": "9",
+          "div_losses": "7",
+          "home_wins": "28",
+          "home_losses": "13",
+          "road_wins": "16",
+          "road_losses": "25",
+          "l10_wins": "5",
+          "l10_losses": "5",
+          "streak": "-2"
+        }
+      }
+    },
+    "Western Conference": {
+      "Northwest": {
+        "Oklahoma City": {
+          "wins": "59",
+          "losses": "23",
+          "pct": "0.720",
+          "gb": "0.0",
+          "conf_wins": "36",
+          "conf_losses": "16",
+          "div_wins": "11",
+          "div_losses": "5",
+          "home_wins": "34",
+          "home_losses": "7",
+          "road_wins": "25",
+          "road_losses": "16",
+          "l10_wins": "6",
+          "l10_losses": "4",
+          "streak": "1"
+        },
+        "Portland": {
+          "wins": "54",
+          "losses": "28",
+          "pct": "0.659",
+          "gb": "5.0",
+          "conf_wins": "31",
+          "conf_losses": "21",
+          "div_wins": "13",
+          "div_losses": "3",
+          "home_wins": "31",
+          "home_losses": "10",
+          "road_wins": "23",
+          "road_losses": "18",
+          "l10_wins": "9",
+          "l10_losses": "1",
+          "streak": "5"
+        }
+      }
+    }
+  }
+}

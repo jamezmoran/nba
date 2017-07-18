@@ -1,0 +1,99 @@
+{
+  "2014": {
+    "Eastern Conference": {
+      "Atlantic": {
+        "Toronto": {
+          "wins": "49",
+          "losses": "33",
+          "pct": "0.598",
+          "gb": "0.0",
+          "conf_wins": "33",
+          "conf_losses": "19",
+          "div_wins": "11",
+          "div_losses": "5",
+          "home_wins": "27",
+          "home_losses": "14",
+          "road_wins": "22",
+          "road_losses": "19",
+          "l10_wins": "7",
+          "l10_losses": "3",
+          "streak": "1"
+        },
+        "Boston": {
+          "wins": "40",
+          "losses": "42",
+          "pct": "0.488",
+          "gb": "9.0",
+          "conf_wins": "28",
+          "conf_losses": "24",
+          "div_wins": "12",
+          "div_losses": "4",
+          "home_wins": "21",
+          "home_losses": "20",
+          "road_wins": "19",
+          "road_losses": "22",
+          "l10_wins": "8",
+          "l10_losses": "2",
+          "streak": "6"
+        }
+      },
+      "Central": {
+        "Cleveland": {
+          "wins": "53",
+          "losses": "29",
+          "pct": "0.646",
+          "gb": "0.0",
+          "conf_wins": "35",
+          "conf_losses": "17",
+          "div_wins": "11",
+          "div_losses": "5",
+          "home_wins": "31",
+          "home_losses": "10",
+          "road_wins": "22",
+          "road_losses": "19",
+          "l10_wins": "7",
+          "l10_losses": "3",
+          "streak": "2"
+        }
+      }
+    },
+    "Western Conference": {
+      "Northwest": {
+        "Portland": {
+          "wins": "51",
+          "losses": "31",
+          "pct": "0.622",
+          "gb": "0.0",
+          "conf_wins": "31",
+          "conf_losses": "21",
+          "div_wins": "11",
+          "div_losses": "5",
+          "home_wins": "32",
+          "home_losses": "9",
+          "road_wins": "19",
+          "road_losses": "22",
+          "l10_wins": "4",
+          "l10_losses": "6",
+          "streak": "-4"
+        },
+        "Oklahoma City": {
+          "wins": "45",
+          "losses": "37",
+          "pct": "0.549",
+          "gb": "6.0",
+          "conf_wins": "25",
+          "conf_losses": "27",
+          "div_wins": "10",
+          "div_losses": "6",
+          "home_wins": "29",
+          "home_losses": "12",
+          "road_wins": "16",
+          "road_losses": "25",
+          "l10_wins": "4",
+          "l10_losses": "6",
+          "streak": "2"
+        }
+      }
+    }
+  }
+}
