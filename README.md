@@ -16,6 +16,8 @@ Files included
 
 `data.sql` - SQL dump of the loaded data for 2012-2013, 2013-2014, and 2014-2015 NBA standings.
 
+`data.json` - JSON dump of the loaded data for 2012-2013, 2013-2014, and 2014-2015 NBA standings.
+
 Setup Instructions
 ============
 This project requires that python3, pip, and virtualenv are installed on the host system. Below are instructions on how to install the dependencies for:
